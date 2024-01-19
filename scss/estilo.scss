@@ -1,0 +1,146 @@
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@import "partials/formulario";
+@import "partials/nosotros";
+@import "partials/servicios";
+@import "partials/puntos";
+
+$color : #2471A3;
+a {
+    text-decoration: none;
+    color: rgb(244, 244, 244);
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+
+/*navegador---- header*/
+
+header {
+    background-color: $color;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    a {
+        color: aliceblue;
+
+    }
+
+    nav ul {
+        display: flex;
+        gap: 16px;
+        font-size: medium;
+
+    }
+
+}
+
+
+
+
+/* SECCIONES */
+
+.ajustar {
+    padding: 16px;
+    text-align: center;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.image-container {
+    flex: 0 0 45%;
+
+    img {
+        width: 100%;
+        height: auto;
+        border-radius: 20px;
+        box-shadow: 1rem 1rem 40px rgba(0, 0, 0, 0.7);
+    }
+}
+
+
+
+.text-container {
+    flex: 0 0 45%;
+    text-align: justify;
+    box-shadow: 1rem 1rem 40px rgba(0, 0, 0, 0.7);
+    padding: 16px;
+
+}
+
+.text-container2 {
+    flex: 0 0 45%;
+    text-align: center;
+    box-shadow: 1rem 1rem 40px rgba(0, 0, 0, 0.7);
+    padding: 16px;
+
+}
+
+
+/*puntos*/
+
+.fondo {
+    background-color: #2471A3;
+}
+
+.letra {
+    color: aliceblue;
+}
+
+/*promos*/
+
+.imagenes {
+    width: 100%;
+    height: 600px;
+}
+
+/* carrusel*/
+
+.centrar {
+    text-align: center;
+    justify-content: center;
+    padding: 15px;
+}
+
+/* footer */
+
+footer {
+
+    background-color: #2471A3;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    p {
+    text-align: center;
+    flex: 100% 0 150%;
+    color: aliceblue;
+}
+
+}
+
+
+
+
