@@ -30,9 +30,11 @@
 
 
 
-/* Reglas de medios para pantallas entre 365px y 1200px */
+
 @media only screen and (min-width: 365px) and (max-width: 1200px) {
     .content-container {
         flex: 0 0 49%;
     }
 }
+
+
